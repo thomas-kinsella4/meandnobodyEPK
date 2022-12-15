@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "./NavBar";
-import YouTubeEmbed from "./YouTubeEmbed";
+import Bio from "./Bio";
 import Live from "./Live";
 import Blog from "./Blog";
 import Contact from "./Contact";
@@ -19,7 +19,9 @@ function Loading() {
 
     return (
         <div>
-            <YouTubeEmbed embedId="K-_hIiy0k2c" />
+            <div id="help"> 
+            <Bio />
+            </div>
             <Live />
             <Blog />
             <Photos />

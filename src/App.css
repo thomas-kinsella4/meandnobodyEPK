@@ -91,6 +91,18 @@ body {
   color: blue;
 }
 
+#vid-link {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+#help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+
 
 
 @media screen and (max-width: 400px) {
@@ -200,7 +212,7 @@ orange: EB5A28
 
 .alink {
   padding: 0.5em;
-  font-size: 0.75em;
+  font-size: 0.6em;
 }
 
 .alink:hover {
@@ -266,7 +278,8 @@ orange: EB5A28
 
   /* RECORD STYLING
   background-color: #dd1c1a; */
-
+  display: flex;
+  flex-direction: column;
   background-color: #b58afb;
   margin-top: 4em;
   display: flex;
@@ -628,10 +641,6 @@ orange: EB5A28
     display: none;
   }
 
-  .purple-live-header {
-    display: none;
-  }
-
   .live-header {
     text-align: center;
     font-size: 2.5em;
@@ -658,6 +667,7 @@ orange: EB5A28
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
   }
 
   #contact-section {
