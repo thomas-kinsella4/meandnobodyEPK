@@ -9,7 +9,7 @@ function NavBar() {
             <div id="navbar">
                 <div id="inner-navbar">
                 <Link className="alink" activeClass="active"
-                to="vid-section"
+                to="bio-div"
                 spy={true}
                 smooth={true}
                 offset={0}
