@@ -580,7 +580,7 @@ orange: EB5A28
 
 #contact-email {
   color: #252525;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 900;
   margin-bottom: 2em;
 }
@@ -649,7 +649,7 @@ orange: EB5A28
 
 @media screen and (max-width: 900px){
   #contact-email {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
 
   #contact-logo {
@@ -698,7 +698,7 @@ orange: EB5A28
   }
 
   #contact-email {
-    font-size: 0.65em;
+    font-size: 1em;
   }
 
   .song-img {
