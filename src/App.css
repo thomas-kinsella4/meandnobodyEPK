@@ -5,7 +5,7 @@ body {
   /* RECORD STYLING
   background-color: #FFF9ED;
   color: white; */
-  background-color: black;
+  background-color: white;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -13,8 +13,12 @@ body {
   overflow-x: hidden; */
 }
 
+#header-logo {
+  width: 17em;
+}
+
 #bio {
-  color: white;
+  color: black;
   font-size: larger;
 }
 
@@ -39,7 +43,7 @@ body {
 .song-div {
   text-align: center;
   margin: 1em;
-  background-color: #735fda;
+  background-color: black;
   border-radius: 10px;
   padding: 1em;
 }
@@ -49,13 +53,13 @@ body {
 }
 
 #mp3-header {
-  color: white;
+  color: black;
   font-size: 1.5em;
 }
 
 .a-link {
   font-size: 2em;
-  color: white;
+  color: black;
   font-weight: 900;
 }
 
@@ -71,7 +75,7 @@ body {
 #photo-section {
   margin: 2em;
   padding: 2em;
-  border-top: 2px solid #735fda;
+  border-top: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,14 +89,14 @@ body {
 }
 
 #more-info {
-  border-top: 2px solid #735fda;
+  border-top: 2px solid white;
   padding: 2em;
 }
 
 #linktree {
   font-size: 1.5em;
   font-weight: 900;
-  color: black;
+  color: white;
 }
 
 #linktree:hover {
@@ -176,7 +180,7 @@ orange: EB5A28
 
 #inner-navbar {
   padding-bottom: 1em;
-  border-bottom: 2px solid #b58afb;
+  border-bottom: 2px solid black;
 }
 
 .sticky {
@@ -189,7 +193,7 @@ orange: EB5A28
   /* margin-top: 2em; */
   text-align: center;
   z-index: 9;
-  background-color: black;
+  background-color: white;
 }
 
 #nav-logo-div {
@@ -203,7 +207,7 @@ orange: EB5A28
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 #header-vid {
@@ -222,6 +226,7 @@ orange: EB5A28
 .alink {
   padding: 0.5em;
   font-size: 0.6em;
+  color: black;
 }
 
 .alink:hover {
@@ -230,7 +235,8 @@ orange: EB5A28
   /* RECORD STYLING
   color: #dd1c1a; */
 
-  color:#8a43fc;
+  color:black;
+  text-decoration: underline;
   cursor: pointer;
   transition: 0.35s;
 }
@@ -247,7 +253,7 @@ orange: EB5A28
   /* RECORD STYLING
   color: #FBC78A; */
 
-  color:white;
+  color:black;
 }
 
 .social-icons:hover {
@@ -255,9 +261,10 @@ orange: EB5A28
   /* RECORD STYLING
   color: #dd1c1a; */
 
-  color: #8a43fc;
+  color: black;
   cursor: pointer;
   transition: 0.25s;
+  transform: translateY(-5px);
 }
 
 #vid-section {
@@ -289,7 +296,7 @@ orange: EB5A28
   background-color: #dd1c1a; */
   display: flex;
   flex-direction: column;
-  background-color: #b58afb;
+  background-color: black;
   margin-top: 4em;
   display: flex;
   justify-content: center;
@@ -417,6 +424,7 @@ orange: EB5A28
 #blog-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -452,9 +460,54 @@ orange: EB5A28
 
 #middle-blog {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center; 
+}
+
+#press-section {
+  padding: 2em;
+  margin: 1em;
+  display: flex;
+  text-align: center;
   justify-content: center;
+  border-top: 2px solid black;
+}
+
+#press-left {
+  width: 33%;
+  padding: 2em;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+#press-middle {
+  width: 33%;
+  padding: 2em;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+#press-right {
+  width: 33%;
+  padding: 2em;
+  border: 1px solid black;
+  margin: 1em;
+}
+
+#hidden {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#toggle-hidden {
+  text-decoration: underline;
+  font-weight: 900;
+  display: none;
+}
+
+.press-link {
+  padding-top: 1em;
 }
 
 .blog-letters {
@@ -545,7 +598,7 @@ orange: EB5A28
 
 #contact-section {
   text-align: center;
-  background-color: white;
+  background-color: black;
   margin-top: 3em;
   display: flex;
   flex-direction: column;
@@ -576,19 +629,19 @@ orange: EB5A28
 }
 
 #contact-logo {
-  color: #252525;
+  color: white;
   font-size: 3.5em;
   font-weight: 900;
 }
 
 .contact-content {
-  color: #252525;
+  color: white;
   font-size: 2em;
   font-weight: 900;
 }
 
 #contact-email {
-  color: #252525;
+  color: white;
   font-size: 2em;
   font-weight: 900;
   margin-bottom: 2em;
@@ -599,6 +652,7 @@ orange: EB5A28
   text-align: center;
   width: 20em;
   padding: 1em;
+  color: white;
 }
 
 #email-input:focus {
@@ -641,6 +695,33 @@ orange: EB5A28
 
 /* ////////// MEDIA QUERIES ///////////////////////////// */
 
+@media screen and (max-width: 760px){
+  #press-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #press-right {
+    width: 100%;
+  }
+
+  #press-middle {
+    width: 100%;
+  }
+
+  #press-left {
+    width: 100%;
+  }
+
+  #hidden {
+    display: none;
+  }
+
+  #toggle-hidden {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1110px){
   #right-blog {
     display: none;
@@ -663,6 +744,7 @@ orange: EB5A28
 
   #contact-logo {
     font-size: 2.5em;
+  
   }
 
   .contact-content {
@@ -720,7 +802,9 @@ orange: EB5A28
     width: 100%;
   }
 
-
+  #inner-navbar {
+    font-size: smaller;
+  }
 }
 
 /* @media screen and (max-width: 710px) {

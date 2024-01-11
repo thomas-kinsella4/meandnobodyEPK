@@ -8,8 +8,8 @@ function Contact() {
             <h3 id="contact-email">EMAIL: MEANDNOBODYBAND@GMAIL.COM</h3>
             <h3 id="contact-email">PHONE: 631-241-2582</h3>
             <div id="more-info">
-            <h3 id="contact-email">FOR MORE INFO, VIEW OUR LINKTREE HERE:</h3>
-            <a href="https://linktr.ee/meandnobody" id="linktree" target="_blank">ME + NOBODY LINKTREE</a>
+            <h3 id="contact-email">FOR MORE, VIEW OUR WEBSITE HERE:</h3>
+            <a href="https://meandnobody.com/" id="linktree" target="_blank">MEANDNOBODY.COM</a>
             </div>
       
             

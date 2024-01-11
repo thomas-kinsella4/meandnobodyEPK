@@ -34,6 +34,12 @@ function NavBar() {
                 offset={0}
                 duration={500}>PHOTOS</Link>
                 <Link className="alink" activeClass="active"
+                to="press-section"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}>PRESS</Link>
+                <Link className="alink" activeClass="active"
                 to="contact-section"
                 spy={true}
                 smooth={true}

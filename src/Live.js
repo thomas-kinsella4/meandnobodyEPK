@@ -22,9 +22,9 @@ function Live() {
            
             </div> */}
             <YouTubeEmbed embedId={"W7FvynNuI-I"}/>
+            <YouTubeEmbed embedId={"y9AvYaR4NTk"}/>
             <YouTubeEmbed embedId={"4oEC5On78fQ"}/>
-            <YouTubeEmbed embedId={"Rvx91wnsNzE"}/>
-            <YouTubeEmbed embedId={"_qaMumEl0zk"}/>
+            <YouTubeEmbed embedId={"7QwwFBfxGCs"}/>
             <div id="vid-link">
             <h2>LINK TO ACCESS AND DOWNLOAD THESE VIDEOS:</h2>
             <a href="https://drive.google.com/drive/folders/1wMHlZ0P6zWFJi7IOuBJB2blK3ygi22b1?usp=sharing" className="a-link" target="_blank">VIDEOS</a>
